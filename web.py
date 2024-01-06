@@ -11,5 +11,5 @@ yoe=st.text_input("Enter years of experience: ")
 if st.button("predict"):
  yoe=float(yoe)
  data=[[yoe]]
-result=model.predict(data)
-st.success(result)
+ result=model.predict(data)
+ st.success(result)
